@@ -1,0 +1,32 @@
+#titulo {
+    display: flex;
+    justify-content: center;
+    height: 33vh;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 600;
+    zoom: 160%;
+    margin-bottom: 20px;
+}
+
+.origem {
+    display: flex;
+    justify-content: center; 
+}
+
+.volt {
+    zoom: 150%;
+    color: black;
+    border-color: black; 
+    text-decoration: none;
+    padding: 0px 8px;  
+    margin-bottom: 2px;
+}
+
+.volt:hover {
+    zoom: 200%;
+    /* text-transform:uppercase; */
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}

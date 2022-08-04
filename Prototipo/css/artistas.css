@@ -1,0 +1,135 @@
+
+header {
+    height: 70px;
+    min-width: 200px;
+    zoom: 110%;
+}
+
+#btn09 {
+    padding: 8px 8px;
+    margin-top: px;
+}
+
+.btnpreto { 
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border-radius: 25%;
+    border-color: black;
+    padding: 5px 15px;
+    padding-left: 13px; 
+    margin: 15px 0px 15px 20px;
+}
+
+.btnhome { 
+    zoom: 110%;
+    text-decoration: none;
+    margin-top: 0px;
+}
+
+.artistas li {
+    display: flex;
+    padding: 5px 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    align-items:center;
+}
+
+.artistas li:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.artistas p {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.volt {
+    color: black;
+    zoom: 230%; 
+    text-decoration: none;
+    margin-right: 10px;   
+}
+
+ul {
+    padding: 10px 32px 10px;
+}
+
+.textdecora{
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    zoom: 40%;
+    margin-right: 30px;
+    border-radius: 15px;
+}
+
+#homes {
+    margin-right: 0px;
+}
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    /* width: 100%; */
+    background-color: white;
+    padding-right: 35px;    
+}
+
+@media screen and (min-width: 768px){
+    
+    header {
+        zoom:150%;
+    }
+
+    .btnhome { 
+        zoom: 70%;
+    }
+
+    .artistas li {
+        display:flex;
+        flex-direction: column;
+        zoom: 150%;
+        width: 102px;
+        height: 152px;
+        margin: 5px 5px; 
+    }
+
+    ul {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+    }
+
+    .artistas p {
+        font-size: 12px;
+        text-align:center;   
+        margin: auto;
+    }
+
+    .volt {
+        zoom: 200%;   
+    }
+
+    img {
+        zoom: 60%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+}
+
+
+@media screen and (min-width: 1400px){
+     
+    .artistas li {
+        zoom: 180%;       
+    }  
+}

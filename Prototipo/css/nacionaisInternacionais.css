@@ -1,0 +1,128 @@
+#titulo {
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 600;
+    zoom: 120%;
+}
+
+#col{
+    padding-left: 0px;
+}
+
+ul {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+}
+
+li {
+    display: inline-block; 
+    margin: 2px;   
+}
+
+.btn {    
+    width: 7vh;
+    height: 7vh;
+    zoom: 130%;
+}
+
+.btnpreto { 
+    zoom: 150%;
+    color: white;
+    background-color: black;
+    border-radius: 20%;
+    border-color: black;
+    box-shadow: none;
+    padding: 11px; 
+    width: 55px;
+
+}
+
+.btnpreto:hover { 
+    zoom: 150%;
+    color: black;
+    background-color: white;
+    border-radius: 20%;
+    border-color: black;
+    padding: 11px; 
+    width: 55px;
+
+}
+
+#voltar {
+    display: flex;
+    background-color: white;
+    color: white;
+    
+}
+
+#btl {
+    zoom: 48%;
+    color: rgb(0, 0, 0);
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.btnbranco { 
+    zoom: 150%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20%;
+    border-color: black;
+    padding: 7px; 
+    width: 55px;
+
+}
+
+.btnbranco:hover { 
+    filter: invert();
+    border-color: black;
+}
+
+@media screen and (max-width: 402px){
+    .btnpreto { 
+        zoom: 126%;
+    }
+
+    .btnpreto:hover { 
+        zoom: 126%;
+    }
+    
+    .btnbranco { 
+        zoom: 126%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    
+    .btnpreto { 
+        zoom: 220%;
+    }
+
+    .btnpreto:hover { 
+        zoom: 220%;
+    }
+    
+    .btnbranco { 
+        zoom: 220%;
+    }
+
+}
+
+@media screen and (min-width: 1400px){
+    
+    .btnpreto { 
+        zoom: 280%;
+    }
+
+    .btnpreto:hover { 
+        zoom: 280%;
+    }
+    
+    .btnbranco { 
+        zoom: 280%;
+    }
+
+}
